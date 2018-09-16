@@ -2,4 +2,7 @@ group 'com.jfs.rolemanager'
 version '1.0-SNAPSHOT'
 
 dependencies {
+    compile "mysql:mysql-connector-java:${mysqlConnectorVersion}"
+    compile "org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}"
+
 }

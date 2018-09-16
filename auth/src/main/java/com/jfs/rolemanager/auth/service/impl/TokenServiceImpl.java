@@ -1,6 +1,6 @@
 package com.jfs.rolemanager.auth.service.impl;
 
-import com.jfs.rolemanager.auth.persistance.model.AppConfig;
+import com.jfs.rolemanager.common.persistance.model.AppConfig;
 import com.jfs.rolemanager.auth.service.eao.TokenService;
 import com.jfs.rolemanager.auth.util.JwtTokenUtil;
 import com.jfs.rolemanager.common.exception.BaseApplicationException;

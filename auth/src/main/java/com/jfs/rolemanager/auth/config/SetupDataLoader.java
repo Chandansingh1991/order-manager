@@ -1,13 +1,13 @@
 package com.jfs.rolemanager.auth.config;
 
-import com.jfs.rolemanager.auth.persistance.dao.AppConfigRepositry;
-import com.jfs.rolemanager.auth.persistance.dao.PrivilegeRepository;
-import com.jfs.rolemanager.auth.persistance.dao.RoleRepository;
-import com.jfs.rolemanager.auth.persistance.dao.UserRepository;
-import com.jfs.rolemanager.auth.persistance.model.AppConfig;
-import com.jfs.rolemanager.auth.persistance.model.Privilege;
-import com.jfs.rolemanager.auth.persistance.model.Role;
-import com.jfs.rolemanager.auth.persistance.model.User;
+import com.jfs.rolemanager.common.persistance.dao.AppConfigRepositry;
+import com.jfs.rolemanager.common.persistance.dao.PrivilegeRepository;
+import com.jfs.rolemanager.common.persistance.dao.RoleRepository;
+import com.jfs.rolemanager.common.persistance.dao.UserRepository;
+import com.jfs.rolemanager.common.persistance.model.AppConfig;
+import com.jfs.rolemanager.common.persistance.model.Privilege;
+import com.jfs.rolemanager.common.persistance.model.Role;
+import com.jfs.rolemanager.common.persistance.model.User;
 import com.jfs.rolemanager.common.constant.Roles;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;

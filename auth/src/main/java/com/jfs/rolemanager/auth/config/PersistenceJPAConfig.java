@@ -20,8 +20,8 @@ import java.util.Properties;
 @Configuration
 @EnableTransactionManagement
 @PropertySource({"classpath:persistence.properties"})
-@ComponentScan({"com.jfs.rolemanager.auth.persistance"})
-@EnableJpaRepositories(basePackages = "com.jfs.rolemanager.auth.persistance.dao")
+@ComponentScan({"com.jfs.rolemanager.common.persistance"})
+@EnableJpaRepositories(basePackages = "com.jfs.rolemanager.common.persistance.dao")
 public class PersistenceJPAConfig {
 
     @Autowired
@@ -37,7 +37,7 @@ public class PersistenceJPAConfig {
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         final LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(dataSource());
-        em.setPackagesToScan(new String[]{"com.jfs.rolemanager.auth.persistance.model"});
+        em.setPackagesToScan(new String[]{"com.jfs.rolemanager.common.persistance.model"});
         final HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
         em.setJpaVendorAdapter(vendorAdapter);
         em.setJpaProperties(additionalProperties());

@@ -1,7 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ba0fa2e-9f29-430a-8d93-9e59b1116dfe" name="Default" comment="" />
+    <list default="true" id="4ba0fa2e-9f29-430a-8d93-9e59b1116dfe" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/annotation-processors.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auth/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/AuthApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/config/PersistenceJPAConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/config/SetupDataLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/config/WebConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/controller/TokenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/persistance/dao/AppConfigRepositry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/persistance/dao/PrivilegeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/persistance/dao/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/persistance/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/persistance/model/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/persistance/model/Privilege.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/persistance/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/persistance/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/request/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/request/ValidateTokenRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/response/RolesPrivileges.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/response/TokenResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/response/UserRoles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/eao/AuthenticateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/eao/TokenCacheStoreService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/eao/TokenExpirationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/eao/TokenKeyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/eao/TokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/eao/TokenValidatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/impl/AuthenticateServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/impl/TokenCacheStoreServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/impl/TokenExpirationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/impl/TokenKeyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/impl/TokenServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/service/impl/TokenValidatorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/classes/java/main/com/jfs/rolemanager/auth/util/JwtTokenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build/libs/gs-spring-boot-0.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/AuthApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/config/PersistenceJPAConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/config/SetupDataLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/config/WebConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/controller/TokenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/persistance/dao/AppConfigRepositry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/persistance/dao/PrivilegeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/persistance/dao/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/persistance/dao/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/persistance/model/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/persistance/model/Privilege.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/persistance/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/persistance/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/request/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/request/ValidateTokenRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/response/RolesPrivileges.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/response/TokenResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/response/UserRoles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/eao/AuthenticateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/eao/TokenCacheStoreService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/eao/TokenExpirationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/eao/TokenKeyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/eao/TokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/eao/TokenValidatorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/impl/AuthenticateServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/impl/TokenCacheStoreServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/impl/TokenExpirationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/impl/TokenKeyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/impl/TokenServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/service/impl/TokenValidatorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/out/production/classes/com/jfs/rolemanager/auth/util/JwtTokenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/config/PersistenceJPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/config/PersistenceJPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/config/SetupDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/config/SetupDataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/dao/AppConfigRepositry.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/dao/AppConfigRepositry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/dao/PrivilegeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/dao/PrivilegeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/dao/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/dao/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/model/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/model/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/model/Privilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/model/Privilege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/eao/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/eao/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/impl/AuthenticateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/impl/AuthenticateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/impl/TokenKeyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/impl/TokenKeyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/impl/TokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/impl/TokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/util/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/util/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/jfs/rolemanager/common/constant/ResponseCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/jfs/rolemanager/common/constant/Roles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/jfs/rolemanager/common/dto/AbstractBaseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/jfs/rolemanager/common/dto/StatusBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/jfs/rolemanager/common/exception/AuthException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/jfs/rolemanager/common/exception/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/jfs/rolemanager/common/exception/BaseApplicationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/jfs/rolemanager/common/exception/ServerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/jfs/rolemanager/common/services/JsonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/out/production/classes/com/jfs/rolemanager/common/constant/ResponseCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/out/production/classes/com/jfs/rolemanager/common/constant/Roles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/out/production/classes/com/jfs/rolemanager/common/dto/AbstractBaseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/out/production/classes/com/jfs/rolemanager/common/dto/StatusBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/out/production/classes/com/jfs/rolemanager/common/exception/AuthException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/out/production/classes/com/jfs/rolemanager/common/exception/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/out/production/classes/com/jfs/rolemanager/common/exception/BaseApplicationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/out/production/classes/com/jfs/rolemanager/common/exception/ServerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/out/production/classes/com/jfs/rolemanager/common/services/JsonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldapservice/build/classes/java/main/com/jfs/rolemanager/ldap/LDAPUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldapservice/build/libs/ldapservice-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ldapservice/build/libs/ldapservice-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldapservice/out/production/classes/com/jfs/rolemanager/ldap/LDAPUtil.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -96,7 +214,26 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,6 +249,9 @@
     <replaceStrings>
       <replace>com.jfs.rolemanager</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -716,11 +856,11 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="10759325170000" />
+        <entry key="$PROJECT_DIR$" value="10759374528000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/auth/build.gradle" value="383354631" />
+        <entry key="$PROJECT_DIR$/auth/build.gradle" value="2109929264" />
         <entry key="$PROJECT_DIR$/build.gradle" value="2946131800" />
-        <entry key="$PROJECT_DIR$/common/build.gradle" value="1939014737" />
+        <entry key="$PROJECT_DIR$/common/build.gradle" value="4079865518" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
         <entry key="$PROJECT_DIR$/ldapservice/build.gradle" value="1939014737" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1384992908" />
@@ -961,7 +1101,6 @@
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/ldapservice/src/main/java/com/jfs/rolemanager/ldap/LDAPUtil.java" />
         <option value="$PROJECT_DIR$/ldapservice/build.gradle" />
-        <option value="$PROJECT_DIR$/common/build.gradle" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/exception/AuthException.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/constant/ResponseCode.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/constant/Roles.java" />
@@ -975,8 +1114,10 @@
         <option value="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/eao/TokenExpirationService.java" />
         <option value="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/service/eao/TokenKeyService.java" />
         <option value="$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/model/AppConfig.java" />
-        <option value="$PROJECT_DIR$/auth/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/common/build.gradle" />
+        <option value="$PROJECT_DIR$/auth/build.gradle" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -986,6 +1127,7 @@
     <option name="width" value="1279" />
     <option name="height" value="724" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -1008,6 +1150,9 @@
     </panes>
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jfs.rolemanager.common" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.jfs.rolemanager.ldap" />
     </key>
@@ -1191,24 +1336,24 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4996016" weight="0.32686085" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4996016" weight="0.3262987" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24940239" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="SBT Console" order="7" />
-      <window_info anchor="bottom" id="Messages" weight="0.32847896" />
+      <window_info anchor="bottom" id="Messages" weight="0.32792208" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32847896" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32847896" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25338647" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32792208" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32792208" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25338647" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32847896" />
       <window_info anchor="bottom" id="JProfiler" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.31792828" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -1221,6 +1366,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1266,13 +1415,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ldapservice/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="7" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/dto/StatusBean.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1347,15 +1489,8 @@
     <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/config/SetupDataLoader.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/model/Privilege.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/model/Privilege.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/dao/AppConfigRepositry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1478,7 +1613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/dao/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/dao/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
@@ -1488,7 +1623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/model/Role.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1511,7 +1646,7 @@
     <entry file="file://$PROJECT_DIR$/auth/src/main/resources/persistence.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/jfs/rolemanager/auth/persistance/model/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/model/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
@@ -1528,17 +1663,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="88" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="28" column="111" selection-start-line="28" selection-start-column="111" selection-end-line="28" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/dao/PrivilegeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/jfs/rolemanager/common/persistance/dao/AppConfigRepositry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -1,8 +1,8 @@
 package com.jfs.rolemanager.auth.service.impl;
 
 import org.apache.commons.lang.StringUtils;
-import com.jfs.rolemanager.auth.persistance.dao.AppConfigRepositry;
-import com.jfs.rolemanager.auth.persistance.model.AppConfig;
+import com.jfs.rolemanager.common.persistance.dao.AppConfigRepositry;
+import com.jfs.rolemanager.common.persistance.model.AppConfig;
 import com.jfs.rolemanager.auth.service.eao.TokenCacheStoreService;
 import com.jfs.rolemanager.auth.service.eao.TokenKeyService;
 import com.jfs.rolemanager.common.constant.ResponseCode;

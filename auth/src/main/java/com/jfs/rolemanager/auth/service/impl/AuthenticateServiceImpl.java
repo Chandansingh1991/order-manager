@@ -1,12 +1,12 @@
 package com.jfs.rolemanager.auth.service.impl;
 
 import org.apache.commons.lang.StringUtils;
-import com.jfs.rolemanager.auth.persistance.dao.AppConfigRepositry;
-import com.jfs.rolemanager.auth.persistance.dao.UserRepository;
-import com.jfs.rolemanager.auth.persistance.model.AppConfig;
-import com.jfs.rolemanager.auth.persistance.model.Privilege;
-import com.jfs.rolemanager.auth.persistance.model.Role;
-import com.jfs.rolemanager.auth.persistance.model.User;
+import com.jfs.rolemanager.common.persistance.dao.AppConfigRepositry;
+import com.jfs.rolemanager.common.persistance.dao.UserRepository;
+import com.jfs.rolemanager.common.persistance.model.AppConfig;
+import com.jfs.rolemanager.common.persistance.model.Privilege;
+import com.jfs.rolemanager.common.persistance.model.Role;
+import com.jfs.rolemanager.common.persistance.model.User;
 import com.jfs.rolemanager.auth.response.RolesPrivileges;
 import com.jfs.rolemanager.auth.response.TokenResponse;
 import com.jfs.rolemanager.auth.response.UserRoles;

@@ -13,8 +13,8 @@ buildscript {
 apply plugin: "org.springframework.boot"
 
 bootJar {
-    baseName = 'gs-spring-boot'
-    version = '0.1.0'
+    baseName = 'auth'
+    version =  '0.1.0'
 }
 group 'com.jfs.rolemanager'
 version '1.0-SNAPSHOT'
@@ -31,6 +31,4 @@ dependencies {
     compile project(':ldapservice')
     compile "org.springframework.boot:spring-boot-starter-tomcat:${springBootVersion}"
     compile "io.jsonwebtoken:jjwt:0.2"
-    compile "mysql:mysql-connector-java:${mysqlConnectorVersion}"
-    compile "org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}"
 }

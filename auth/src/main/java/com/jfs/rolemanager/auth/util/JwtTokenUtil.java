@@ -2,7 +2,7 @@ package com.jfs.rolemanager.auth.util;
 
 import io.jsonwebtoken.*;
 import org.apache.commons.lang.StringUtils;
-import com.jfs.rolemanager.auth.persistance.model.AppConfig;
+import com.jfs.rolemanager.common.persistance.model.AppConfig;
 import com.jfs.rolemanager.auth.service.eao.TokenCacheStoreService;
 import com.jfs.rolemanager.auth.service.eao.TokenKeyService;
 import com.jfs.rolemanager.common.constant.ResponseCode;

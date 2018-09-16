@@ -1,6 +1,6 @@
 package com.jfs.rolemanager.auth.service.eao;
 
-import com.jfs.rolemanager.auth.persistance.model.AppConfig;
+import com.jfs.rolemanager.common.persistance.model.AppConfig;
 import com.jfs.rolemanager.common.exception.BaseApplicationException;
 
 public interface TokenService {
