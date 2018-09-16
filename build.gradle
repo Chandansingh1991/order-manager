@@ -1,0 +1,42 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    group 'com.jfs.rolemanager'
+    version '1.0-SNAPSHOT'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+
+    ext {
+        javaVersion = "1.8"
+        springBootVersion = "2.0.4.RELEASE"
+        slf4jVersion = "1.7.21"
+        logbackVersion = "1.2.3"
+        jwtVersion = "0.7.0"
+        gsonVersion = "2.8.0"
+        commonCollectionVersion = "3.2.2"
+        commonLangVersion = "2.6"
+        mysqlConnectorVersion = "5.1.46"
+
+    }
+
+
+    dependencies {
+        compile group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '1.2.1.RELEASE'
+        compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        compile "org.springframework.boot:spring-boot-starter-web:${javaVersion}"
+        compile "javax.validation:validation-api:2.0.0.Final"
+        compile "ch.qos.logback:logback-classic:${logbackVersion}"
+        compile "io.jsonwebtoken:jjwt:${jwtVersion}"
+        compile "commons-lang:commons-lang:${commonLangVersion}"
+        compile "org.slf4j:jcl-over-slf4j:${slf4jVersion}"
+        compile "com.google.code.gson:gson:${gsonVersion}"
+        compile "commons-collections:commons-collections:${commonCollectionVersion}"
+    }
+
+}

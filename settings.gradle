@@ -1,0 +1,5 @@
+rootProject.name = 'role-manager'
+include 'common'
+include 'auth'
+include 'ldapservice'
+
